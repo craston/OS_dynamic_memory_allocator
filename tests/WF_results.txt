@@ -1,0 +1,110 @@
+WORST FIT ALLOCATOR
+Memory : [6299776 6300288] (512 bytes)
+Begin of free block list :
+Free block at address 0, size 488
+ALLOC at : 24 (75 byte(s))
+ALLOC at : 123 (100 byte(s))
+ALLOC at : 247 (100 byte(s))
+ALLOC at : 371 (100 byte(s))
+Begin of free block list :
+Free block at address 471, size 17
+FREE  at : 24 
+Begin of free block list :
+Free block at address 0, size 75
+Free block at address 471, size 17
+FREE  at : 247 
+Begin of free block list :
+Free block at address 0, size 75
+Free block at address 223, size 100
+Free block at address 471, size 17
+ALLOC at : 247 (50 byte(s))
+Begin of free block list :
+Free block at address 0, size 75
+Free block at address 297, size 26
+Free block at address 471, size 17
+ALLOC at : 24 (20 byte(s))
+Begin of free block list :
+Free block at address 44, size 31
+Free block at address 297, size 26
+Free block at address 471, size 17
+ALLOC at : 68 (30 byte(s))
+Begin of free block list :
+Free block at address 297, size 26
+Free block at address 471, size 17
+ALLOC at : 321 (20 byte(s))
+Begin of free block list :
+Free block at address 471, size 17
+
+
+BEST FIT ALLOCATOR
+Memory : [6299776 6300288] (512 bytes)
+Begin of free block list :
+Free block at address 0, size 488
+ALLOC at : 24 (75 byte(s))
+ALLOC at : 123 (100 byte(s))
+ALLOC at : 247 (100 byte(s))
+ALLOC at : 371 (100 byte(s))
+Begin of free block list :
+Free block at address 471, size 17
+FREE  at : 24 
+Begin of free block list :
+Free block at address 0, size 75
+Free block at address 471, size 17
+FREE  at : 247 
+Begin of free block list :
+Free block at address 0, size 75
+Free block at address 223, size 100
+Free block at address 471, size 17
+ALLOC at : 24 (50 byte(s))
+Begin of free block list :
+Free block at address 74, size 1
+Free block at address 223, size 100
+Free block at address 471, size 17
+ALLOC at : 247 (20 byte(s))
+Begin of free block list :
+Free block at address 74, size 1
+Free block at address 267, size 56
+Free block at address 471, size 17
+ALLOC at : 291 (30 byte(s))
+Begin of free block list :
+Free block at address 74, size 1
+Free block at address 321, size 2
+Free block at address 471, size 17
+ALLOC error : can't allocate 20 bytes
+
+FIRST-FIT ALLOCATOR
+Memory : [6299776 6300288] (512 bytes)
+Begin of free block list :
+Free block at address 0, size 488
+ALLOC at : 24 (75 byte(s))
+ALLOC at : 123 (100 byte(s))
+ALLOC at : 247 (100 byte(s))
+ALLOC at : 371 (100 byte(s))
+Begin of free block list :
+Free block at address 471, size 17
+FREE  at : 24 
+Begin of free block list :
+Free block at address 0, size 75
+Free block at address 471, size 17
+FREE  at : 247 
+Begin of free block list :
+Free block at address 0, size 75
+Free block at address 223, size 100
+Free block at address 471, size 17
+ALLOC at : 24 (50 byte(s))
+Begin of free block list :
+Free block at address 74, size 1
+Free block at address 223, size 100
+Free block at address 471, size 17
+ALLOC at : 247 (20 byte(s))
+Begin of free block list :
+Free block at address 74, size 1
+Free block at address 267, size 56
+Free block at address 471, size 17
+ALLOC at : 291 (30 byte(s))
+Begin of free block list :
+Free block at address 74, size 1
+Free block at address 321, size 2
+Free block at address 471, size 17
+ALLOC error : can't allocate 20 bytes
+

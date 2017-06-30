@@ -1,0 +1,98 @@
+FIRST FIT ALLOCATOR WORKING
+
+Memory : [6299776 6300288] (512 bytes)
+Begin of free block list :
+Free block at address 0, size 488
+ALLOC at : 24 (100 byte(s))
+ALLOC at : 148 (100 byte(s))
+ALLOC at : 272 (75 byte(s))
+ALLOC at : 371 (100 byte(s))
+Begin of free block list :
+Free block at address 471, size 17
+FREE  at : 24 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 471, size 17
+FREE  at : 272 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 248, size 75
+Free block at address 471, size 17
+ALLOC at : 24 (30 byte(s))
+Begin of free block list :
+Free block at address 54, size 46
+Free block at address 248, size 75
+Free block at address 471, size 17
+ALLOC at : 78 (45 byte(s))
+Begin of free block list :
+Free block at address 248, size 75
+Free block at address 471, size 17
+ALLOC at : 272 (50 byte(s))
+Begin of free block list :
+Free block at address 322, size 1
+Free block at address 471, size 17
+
+
+BEST FIT
+Memory : [6299776 6300288] (512 bytes)
+Begin of free block list :
+Free block at address 0, size 488
+ALLOC at : 24 (100 byte(s))
+ALLOC at : 148 (100 byte(s))
+ALLOC at : 272 (75 byte(s))
+ALLOC at : 371 (100 byte(s))
+Begin of free block list :
+Free block at address 471, size 17
+FREE  at : 24 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 471, size 17
+FREE  at : 272 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 248, size 75
+Free block at address 471, size 17
+ALLOC at : 272 (30 byte(s))
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 302, size 21
+Free block at address 471, size 17
+ALLOC at : 24 (45 byte(s))
+Begin of free block list :
+Free block at address 69, size 31
+Free block at address 302, size 21
+Free block at address 471, size 17
+ALLOC error : can't allocate 50 bytes
+
+
+WORST FIT
+Memory : [6299776 6300288] (512 bytes)
+Begin of free block list :
+Free block at address 0, size 488
+ALLOC at : 24 (100 byte(s))
+ALLOC at : 148 (100 byte(s))
+ALLOC at : 272 (75 byte(s))
+ALLOC at : 371 (100 byte(s))
+Begin of free block list :
+Free block at address 471, size 17
+FREE  at : 24 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 471, size 17
+FREE  at : 272 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 248, size 75
+Free block at address 471, size 17
+ALLOC at : 24 (30 byte(s))
+Begin of free block list :
+Free block at address 54, size 46
+Free block at address 248, size 75
+Free block at address 471, size 17
+ALLOC at : 272 (45 byte(s))
+Begin of free block list :
+Free block at address 54, size 46
+Free block at address 317, size 6
+Free block at address 471, size 17
+ALLOC error : can't allocate 50 bytes
+

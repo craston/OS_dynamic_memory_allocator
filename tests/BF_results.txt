@@ -1,0 +1,81 @@
+best fit allocator test conditions output
+Memory : [6299776 6300288] (512 bytes)
+Begin of free block list :
+Free block at address 0, size 488
+ALLOC at : 24 (100 byte(s))
+ALLOC at : 148 (100 byte(s))
+ALLOC at : 272 (50 byte(s))
+ALLOC at : 346 (100 byte(s))
+Begin of free block list :
+Free block at address 446, size 42
+FREE  at : 24 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 446, size 42
+FREE  at : 272 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 248, size 50
+Free block at address 446, size 42
+ALLOC at : 272 (50 byte(s))
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 446, size 42
+ALLOC at : 24 (100 byte(s))
+Begin of free block list :
+Free block at address 446, size 42
+
+
+first fit
+Memory : [6299776 6300288] (512 bytes)
+Begin of free block list :
+Free block at address 0, size 488
+ALLOC at : 24 (100 byte(s))
+ALLOC at : 148 (100 byte(s))
+ALLOC at : 272 (50 byte(s))
+ALLOC at : 346 (100 byte(s))
+Begin of free block list :
+Free block at address 446, size 42
+FREE  at : 24 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 446, size 42
+FREE  at : 272 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 248, size 50
+Free block at address 446, size 42
+ALLOC at : 24 (50 byte(s))
+Begin of free block list :
+Free block at address 74, size 26
+Free block at address 248, size 50
+Free block at address 446, size 42
+ALLOC error : can't allocate 100 bytes
+
+
+WORST FIT
+Memory : [6299776 6300288] (512 bytes)
+Begin of free block list :
+Free block at address 0, size 488
+ALLOC at : 24 (100 byte(s))
+ALLOC at : 148 (100 byte(s))
+ALLOC at : 272 (50 byte(s))
+ALLOC at : 346 (100 byte(s))
+Begin of free block list :
+Free block at address 446, size 42
+FREE  at : 24 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 446, size 42
+FREE  at : 272 
+Begin of free block list :
+Free block at address 0, size 100
+Free block at address 248, size 50
+Free block at address 446, size 42
+ALLOC at : 24 (50 byte(s))
+Begin of free block list :
+Free block at address 74, size 26
+Free block at address 248, size 50
+Free block at address 446, size 42
+ALLOC error : can't allocate 100 bytes
+
